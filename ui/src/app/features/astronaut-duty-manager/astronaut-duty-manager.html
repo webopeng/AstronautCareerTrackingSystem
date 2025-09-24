@@ -1,0 +1,151 @@
+<div data-state="active" data-orientation="horizontal" role="tabpanel" aria-labelledby="radix-:r0:-trigger-duties"
+  id="radix-:r0:-content-duties" tabindex="0" data-slot="tabs-content" class="flex-1 outline-none">
+  <div data-slot="card"
+    class="text-card-foreground flex flex-col gap-6 rounded-xl border bg-slate-800/50 border-slate-700">
+    <div data-slot="card-header"
+      class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 pt-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6">
+      <h4 data-slot="card-title" class="leading-none text-white flex items-center"><svg
+          xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="lucide lucide-award h-5 w-5 mr-2 text-blue-400">
+          <path
+            d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526">
+          </path>
+          <circle cx="12" cy="8" r="6"></circle>
+        </svg>Astronaut Duty Management</h4>
+      <p data-slot="card-description" class="text-slate-400">Add and manage astronaut duty assignments</p>
+    </div>
+    <div data-slot="card-content" class="px-6 [&amp;:last-child]:pb-6">
+      <div class="space-y-6">
+        <div data-slot="card"
+          class="text-card-foreground flex flex-col gap-6 rounded-xl border bg-slate-700/30 border-slate-600">
+          <div data-slot="card-header"
+            class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 pt-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6">
+            <h4 data-slot="card-title" class="leading-none text-white flex items-center"><svg
+                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-award h-5 w-5 mr-2 text-blue-400">
+                <path
+                  d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526">
+                </path>
+                <circle cx="12" cy="8" r="6"></circle>
+              </svg>Assign New Astronaut Duty</h4>
+          </div>
+          <div data-slot="card-content" class="px-6 [&amp;:last-child]:pb-6">
+            <form class="space-y-6">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div data-slot="form-item" class="grid gap-2"><label data-slot="form-label"
+                    class="flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 data-[error=true]:text-destructive text-slate-300"
+                    data-error="false" for=":r71:-form-item">Person</label><button type="button" role="combobox"
+                    aria-controls="radix-:r72:" aria-expanded="false" aria-autocomplete="none" dir="ltr"
+                    data-state="closed" data-placeholder="" data-slot="form-control" data-size="default"
+                    class="data-[placeholder]:text-muted-foreground [&amp;_svg:not([class*='text-'])]:text-muted-foreground focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-input/30 dark:hover:bg-input/50 flex w-full items-center justify-between gap-2 rounded-md border px-3 py-2 text-sm whitespace-nowrap transition-[color,box-shadow] outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50 data-[size=default]:h-9 data-[size=sm]:h-8 *:data-[slot=select-value]:line-clamp-1 *:data-[slot=select-value]:flex *:data-[slot=select-value]:items-center *:data-[slot=select-value]:gap-2 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 bg-slate-700/50 border-slate-600 text-white"
+                    id=":r71:-form-item" aria-describedby=":r71:-form-item-description" aria-invalid="false"
+                    fdprocessedid="2h3wa"><span data-slot="select-value" style="pointer-events: none;">Select a
+                      person</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="lucide lucide-chevron-down size-4 opacity-50" aria-hidden="true">
+                      <path d="m6 9 6 6 6-6"></path>
+                    </svg></button><select aria-hidden="true" tabindex="-1"
+                    style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">
+                    <option value="adfa">adfa</option>
+                  </select></div>
+                <div data-slot="form-item" class="grid gap-2"><label data-slot="form-label"
+                    class="flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 data-[error=true]:text-destructive text-slate-300"
+                    data-error="false" for=":r73:-form-item">Duty Title</label><button type="button" role="combobox"
+                    aria-controls="radix-:r74:" aria-expanded="false" aria-autocomplete="none" dir="ltr"
+                    data-state="closed" data-placeholder="" data-slot="form-control" data-size="default"
+                    class="data-[placeholder]:text-muted-foreground [&amp;_svg:not([class*='text-'])]:text-muted-foreground focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-input/30 dark:hover:bg-input/50 flex w-full items-center justify-between gap-2 rounded-md border px-3 py-2 text-sm whitespace-nowrap transition-[color,box-shadow] outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50 data-[size=default]:h-9 data-[size=sm]:h-8 *:data-[slot=select-value]:line-clamp-1 *:data-[slot=select-value]:flex *:data-[slot=select-value]:items-center *:data-[slot=select-value]:gap-2 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 bg-slate-700/50 border-slate-600 text-white"
+                    id=":r73:-form-item" aria-describedby=":r73:-form-item-description" aria-invalid="false"
+                    fdprocessedid="fydurk"><span data-slot="select-value" style="pointer-events: none;">Select duty
+                      title</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="lucide lucide-chevron-down size-4 opacity-50" aria-hidden="true">
+                      <path d="m6 9 6 6 6-6"></path>
+                    </svg></button><select aria-hidden="true" tabindex="-1"
+                    style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">
+                    <option value="COMMANDER">COMMANDERACTIVE</option>
+                    <option value="PILOT">PILOTACTIVE</option>
+                    <option value="MISSION_SPECIALIST">MISSION SPECIALISTACTIVE</option>
+                    <option value="PAYLOAD_SPECIALIST">PAYLOAD SPECIALISTACTIVE</option>
+                    <option value="FLIGHT_ENGINEER">FLIGHT ENGINEERACTIVE</option>
+                    <option value="SCIENCE_OFFICER">SCIENCE OFFICERACTIVE</option>
+                    <option value="RETIRED">RETIREDEND</option>
+                  </select></div>
+                <div data-slot="form-item" class="grid gap-2"><label data-slot="form-label"
+                    class="flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 data-[error=true]:text-destructive text-slate-300"
+                    data-error="false" for=":r75:-form-item">Rank</label><button type="button" role="combobox"
+                    aria-controls="radix-:r76:" aria-expanded="false" aria-autocomplete="none" dir="ltr"
+                    data-state="closed" data-placeholder="" data-slot="form-control" data-size="default"
+                    class="data-[placeholder]:text-muted-foreground [&amp;_svg:not([class*='text-'])]:text-muted-foreground focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-input/30 dark:hover:bg-input/50 flex w-full items-center justify-between gap-2 rounded-md border px-3 py-2 text-sm whitespace-nowrap transition-[color,box-shadow] outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50 data-[size=default]:h-9 data-[size=sm]:h-8 *:data-[slot=select-value]:line-clamp-1 *:data-[slot=select-value]:flex *:data-[slot=select-value]:items-center *:data-[slot=select-value]:gap-2 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 bg-slate-700/50 border-slate-600 text-white"
+                    id=":r75:-form-item" aria-describedby=":r75:-form-item-description" aria-invalid="false"
+                    fdprocessedid="wknrep"><span data-slot="select-value" style="pointer-events: none;">Select
+                      rank</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="lucide lucide-chevron-down size-4 opacity-50" aria-hidden="true">
+                      <path d="m6 9 6 6 6-6"></path>
+                    </svg></button><select aria-hidden="true" tabindex="-1"
+                    style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">
+                    <option value="CADET">CADET★</option>
+                    <option value="LIEUTENANT">LIEUTENANT★</option>
+                    <option value="CAPTAIN">CAPTAIN★</option>
+                    <option value="MAJOR">MAJOR★</option>
+                    <option value="COLONEL">COLONEL★★</option>
+                    <option value="GENERAL">GENERAL★★★</option>
+                  </select></div>
+                <div data-slot="form-item" class="gap-2 flex flex-col"><label data-slot="form-label"
+                    class="flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 data-[error=true]:text-destructive text-slate-300"
+                    data-error="false" for=":r77:-form-item">Start Date</label><button data-slot="popover-trigger"
+                    class="inline-flex items-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 bg-slate-700/50 border-slate-600 text-white hover:bg-slate-700 justify-start text-left font-normal"
+                    id=":r77:-form-item" aria-describedby=":r77:-form-item-description" aria-invalid="false"
+                    type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:r78:"
+                    data-state="closed" fdprocessedid="znq5m9"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                      height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar mr-2 h-4 w-4">
+                      <path d="M8 2v4"></path>
+                      <path d="M16 2v4"></path>
+                      <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                      <path d="M3 10h18"></path>
+                    </svg>September 24th, 2025</button></div>
+              </div><button data-slot="button"
+                class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive text-primary-foreground h-9 px-4 py-2 has-[&gt;svg]:px-3 w-full bg-blue-600 hover:bg-blue-700"
+                type="submit" fdprocessedid="3y1o3f"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" class="lucide lucide-plus h-4 w-4 mr-2">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5v14"></path>
+                </svg>Assign Astronaut Duty</button>
+            </form>
+          </div>
+        </div>
+        <div data-slot="card"
+          class="text-card-foreground flex flex-col gap-6 rounded-xl border bg-slate-700/30 border-slate-600">
+          <div data-slot="card-header"
+            class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 pt-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6">
+            <h4 data-slot="card-title" class="text-white text-sm">Business Rules Reference</h4>
+          </div>
+          <div data-slot="card-content" class="px-6 [&amp;:last-child]:pb-6 space-y-3">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div class="space-y-2">
+                <h4 class="text-slate-300 font-medium">Assignment Rules</h4>
+                <ul class="text-sm text-slate-400 space-y-1">
+                  <li>• One current duty per person at a time</li>
+                  <li>• Previous duty ends day before new assignment</li>
+                  <li>• Current duties have no end date</li>
+                </ul>
+              </div>
+              <div class="space-y-2">
+                <h4 class="text-slate-300 font-medium">Retirement Rules</h4>
+                <ul class="text-sm text-slate-400 space-y-1">
+                  <li>• 'RETIRED' title marks career end</li>
+                  <li>• Career end date = retirement start - 1 day</li>
+                  <li>• Retired personnel have no current duty</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

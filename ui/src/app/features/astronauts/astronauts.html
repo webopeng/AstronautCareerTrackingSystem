@@ -1,0 +1,28 @@
+<div data-state="active" data-orientation="horizontal" role="tabpanel" aria-labelledby="radix-:r0:-trigger-astronauts"
+  id="radix-:r0:-content-astronauts" tabindex="0" data-slot="tabs-content" class="flex-1 outline-none">
+  <div data-slot="card"
+    class="text-card-foreground flex flex-col gap-6 rounded-xl border bg-slate-800/50 border-slate-700">
+    <div data-slot="card-header"
+      class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 pt-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6">
+      <h4 data-slot="card-title" class="leading-none text-white flex items-center"><svg
+          xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="lucide lucide-user-check h-5 w-5 mr-2 text-blue-400">
+          <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+          <circle cx="9" cy="7" r="4"></circle>
+          <polyline points="16 11 18 13 22 9"></polyline>
+        </svg>Active Astronauts</h4>
+      <p data-slot="card-description" class="text-slate-400">View all people with astronaut assignments</p>
+    </div>
+    <div data-slot="card-content" class="px-6 [&amp;:last-child]:pb-6">
+      <div class="space-y-6">
+        <div class="flex justify-between items-center">
+          <h3 class="text-lg font-medium text-white">All Astronauts</h3><button data-slot="button"
+            class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 border-slate-600 text-slate-300 hover:bg-slate-700"
+            fdprocessedid="fuow8m">Refresh</button>
+        </div>
+        <div class="text-center py-8 text-slate-400">No astronaut records found</div>
+      </div>
+    </div>
+  </div>
+</div>
